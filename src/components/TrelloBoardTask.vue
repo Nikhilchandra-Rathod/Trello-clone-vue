@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { nextTick, ref } from "vue";
-import { onKeyStroke } from "@vueuse/core";
 import type { Task, ID } from "../types";
 
 import DragHandle from "./DragHandle.vue";
