@@ -3,7 +3,6 @@ import TrelloBoard from "./components/TrelloBoard.vue";
 </script>
 
 <template>
-  <div class="max-w-7xl mx-auto px-4 py-20">
-    <TrelloBoard />
-  </div>
+  <h1 class="h-12 flex items-center px-4 font-semibold bg-blue-900 text-blue-50 text-xl sticky top-0">Trello Board - Vue</h1>
+  <TrelloBoard />
 </template>
